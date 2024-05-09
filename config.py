@@ -7,11 +7,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "20983008"))
-API_HASH = getenv("API_HASH", "5747182bf48f5430e2eac49851450a03")
+API_ID = int(getenv("API_ID", "4379531"))
+API_HASH = getenv("API_HASH", "0d22bcee113e097f0a86f63ceb913735")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","6767856087:AAH7L2zkngh-jwJVuiiAVLgoQ8XCaxcosXM")
+BOT_TOKEN = getenv("BOT_TOKEN","6881598088:AAHMli50o41ZuSMj3c8Mq0sPeEqvTfIkYVo")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwork123@cluster456.gbvjydm.mongodb.net/?retryWrites=true&w=majority")
@@ -19,10 +19,10 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwor
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002066328009"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002077227906"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", "6544671667"))
+OWNER_ID = int(getenv("OWNER_ID", "6936289614"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 9073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQAn3oI95MYyITwdQsQYBFMI11Xrs0iZ0hikEwtQGBIgWfjKHGrVLsHrhnjlTkbJfaZWqY3rA88bhjOK-tl-IeAcsigaCJtZ_ycu_tiqYt-Bonp9EyS6XtDqZH2H10Xo6s7uEjr3SAfwpV4L5jHb3pN7R6x2yih7att-2kX1666qfnvvwPtoen8_chhJtjROR58O7rM_qAIyKGDcQLxU6Yivr2m6OJz1y0rCAx1pgl09NAIhxdM2qiLboFy_HZdIGgwL81crBzxaTZmuF1CoM33bYHrzN0qAL_uL9AKVV_16kluVTSEUmGxQSZf_hFrI3z6WUYNLgv2XJnScslmB1rD0AAAAAV0T4bsA")
+STRING1 = getenv("STRING_SESSION", "BQC6kfsAsTLO26H5TJEWZNkz1CRd6ME_2xtkCIZFyteTmAvSw7DviugXmlTeT9fpFw6LUiiFlNICc1qoIyMpEnUSLCbv0-lb_WTvwqhsOaK-w3QhJ6wP7k0NgXe03kYXyeO4RfyCpZGMPgcLJWR6Ma34mu2voQZ7pDHb9JTwTPH6Xkf9Pola8fIrX9d7aKBMBRO2v2SQxsXzqgtTzSZFz15MsPBHCrqy6uJTn5ABIxVC40wO4H0jAUQ5URJiJsJET7bpvmgsXD60A9DhaqbK1QYZFhFEG_4npXd-Qha4UDEQGLoX-O_E2p0c-HxYVIZCBBbhR6YBuD1HN6R-dKGlv7LjPxXRVgAAAAGkpjonAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/a0c10cf47b1373e8dac30.jpg"
+    "START_IMG_URL", "https://graph.org/file/a9263fbb7e5f509366d1c.mp4"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/a0c10cf47b1373e8dac30.jpg"
+    "PING_IMG_URL", "https://graph.org/file/a9263fbb7e5f509366d1c.mp4"
 )
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://graph.org/file/a0c10cf47b1373e8dac30.jpg"
+STATS_IMG_URL = "https://graph.org/file/a9263fbb7e5f509366d1c.mp4"
 TELEGRAM_AUDIO_URL = "https://graph.org/file/a0c10cf47b1373e8dac30.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
